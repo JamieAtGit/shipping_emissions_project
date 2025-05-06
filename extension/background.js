@@ -2,7 +2,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.type === "FETCH_ECO_INSIGHT") {
       const { href } = request.payload;
   
-      fetch("http://localhost:5000/estimate_emissions", {
+      fetch("https://eco-backend-m26q.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

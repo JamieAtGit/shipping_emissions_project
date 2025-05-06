@@ -1,0 +1,792 @@
+{
+  "faux leather": {
+    "summary": "Plastic-based alternative to leather. Less ethical concern, but not biodegradable.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "cotton": {
+    "summary": "Natural and biodegradable, but water- and pesticide-intensive to grow conventionally.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "stone": {
+    "summary": "Durable natural material with long lifespan. Mining causes habitat disruption and requires energy.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "stoneware": {
+    "summary": "Durable ceramic material fired at high temperatures. Energy-intensive production but long-lasting.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "wood": {
+    "summary": "Renewable, biodegradable natural material. Impact depends on forest management practices.",
+    "impact": "Low-Moderate",
+    "recyclable": true
+  },
+  "concrete": {
+    "summary": "Cement-based material with high carbon footprint from limestone calcination. Extremely durable.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "brick": {
+    "summary": "Clay-based building material fired at high temperatures. Energy-intensive but extremely long-lasting.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "steel": {
+    "summary": "Alloy with high embodied energy but indefinitely recyclable. Essential for infrastructure.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "aluminum": {
+    "summary": "Lightweight metal with very high initial energy cost, but highly recyclable with lower energy for recycling.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "cement": {
+    "summary": "Key ingredient in concrete responsible for 8% of global CO2 emissions. Extremely high impact.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "glass": {
+    "summary": "Made from abundant materials but energy-intensive to produce. Infinitely recyclable without quality loss.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "plastics": {
+    "summary": "Petroleum-based materials that persist in environment. Varies by type but generally problematic at end-of-life.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "iron": {
+    "summary": "Base metal for steel. Energy-intensive to extract from ore but recyclable and abundant.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "copper": {
+    "summary": "Excellent conductor with limited global supply. Mining has significant environmental impacts.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "timber": {
+    "summary": "Processed wood product with carbon sequestration benefits. Renewable if sustainably harvested.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "lead": {
+    "summary": "Toxic heavy metal with serious health concerns. Highly recyclable but requires careful handling.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "brass": {
+    "summary": "Copper-zinc alloy with good durability. Uses less energy than pure copper but still resource-intensive.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "acrylic": {
+    "summary": "Petroleum-based plastic with clarity and durability. Non-biodegradable and difficult to recycle.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "ceramic": {
+    "summary": "Durable and non-toxic, but typically not recyclable and energy-intensive to fire.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "lumber": {
+    "summary": "Processed wood with minimal processing. Renewable when sustainably harvested. Carbon-storing.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "plywood": {
+    "summary": "Engineered wood with adhesives. More resource-efficient than solid wood but contains resins.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "chipboard": {
+    "summary": "Made from wood waste and adhesives. Utilizes scraps but contains formaldehyde-based resins.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "osb": {
+    "summary": "Engineered wood made from oriented strands with adhesives. Material-efficient but contains resins.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "insulation": {
+    "summary": "Materials vary widely from natural fibers to petroleum-based foam. Impact depends on specific type.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "roofing": {
+    "summary": "Materials range from petroleum-based shingles to metal or clay. Durability and impact varies by type.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "siding": {
+    "summary": "Exterior cladding varies from vinyl to fiber cement. Environmental impact depends on material choice.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "plaster": {
+    "summary": "Traditional wall finish made from gypsum, lime or cement. Moderate energy for production.",
+    "impact": "Low",
+    "recyclable": false
+  },
+  "drywall": {
+    "summary": "Gypsum-based wallboard. Moderately energy-intensive but recyclable in specialized facilities.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "carbon steel": {
+    "summary": "Iron alloy with carbon. High initial energy but durable and recyclable. Essential structural material.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "low-alloy steel": {
+    "summary": "Steel with small amounts of other elements for improved properties. Similar impact to carbon steel.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "tool steel": {
+    "summary": "High-carbon steel specialized for durability. Higher embodied energy but extremely long-lasting.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "stainless steel": {
+    "summary": "Corrosion-resistant steel with chromium. Higher impact than carbon steel but very durable.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "cast iron": {
+    "summary": "High-carbon iron alloy that's extremely durable. Recyclable and often contains recycled content.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "nickel alloys": {
+    "summary": "Specialty metals for extreme environments. High embodied energy but very durable.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "titanium alloys": {
+    "summary": "Lightweight, strong metal with very high extraction and processing energy requirements.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "zinc": {
+    "summary": "Metal used in galvanizing and alloys. Mining has significant impacts but is recyclable.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "tin": {
+    "summary": "Metal used in alloys and coatings. Limited global supply with significant mining impacts.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "polyethylene": {
+    "summary": "Common plastic used in packaging. Petroleum-based, non-biodegradable but technically recyclable.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "polypropylene": {
+    "summary": "Versatile plastic used in many products. Petroleum-based, non-biodegradable but recyclable.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "pvc": {
+    "summary": "Produces toxic chlorine-based chemicals when burned. Often non-recyclable.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "polystyrene": {
+    "summary": "Petroleum-based plastic used in foam packaging. Difficult to recycle and persists in environment.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "polyurethane": {
+    "summary": "Versatile plastic used in foams and coatings. Non-biodegradable and difficult to recycle.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "abs": {
+    "summary": "Plastic used in 3D printing and electronics. Non-biodegradable, recyclable in specialized systems.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "pmma": {
+    "summary": "Clear acrylic plastic with good optical properties. Petroleum-based and non-biodegradable.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "ptfe": {
+    "summary": "Non-stick fluoropolymer with extreme chemical resistance. Persistent in environment.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "nylon": {
+    "summary": "Synthetic polymer used in textiles and engineering. Petroleum-based with high water usage.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "epoxy": {
+    "summary": "Thermosetting polymer used in adhesives and coatings. Non-recyclable once cured.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "silk": {
+    "summary": "Natural protein fiber from silkworms. Biodegradable but involves boiling silkworm cocoons.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "linen": {
+    "summary": "Natural fiber made from flax. Biodegradable and strong, with moderate environmental footprint.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "rayon": {
+    "summary": "Semi-synthetic fabric from cellulose. Biodegradable but chemically intensive to produce.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "polyester": {
+    "summary": "Synthetic polymer fabric. Non-biodegradable, microfiber shedding issues, but recyclable.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "wool": {
+    "summary": "Natural protein fiber from sheep. Biodegradable and renewable but has livestock impacts.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "velvet": {
+    "summary": "Woven fabric with dense pile surface. Environmental impact depends on fiber composition.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "chiffon": {
+    "summary": "Lightweight, sheer fabric. Impact depends on whether it's silk (natural) or synthetic.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "georgette": {
+    "summary": "Lightweight crepe fabric. Environmental impact depends on fiber composition.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "crepe": {
+    "summary": "Fabric with distinctive crinkled surface. Impact varies based on fiber source.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "fleece": {
+    "summary": "Synthetic insulating fabric often made from recycled PET. Sheds microplastics when washed.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "seersucker": {
+    "summary": "Cotton fabric with puckered texture. Impact depends on cotton growing practices.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "tulle": {
+    "summary": "Lightweight, fine netting. Usually made from synthetic fibers with moderate impact.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "denim": {
+    "summary": "Durable cotton twill fabric. Water-intensive production with high dye chemical usage.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "jersey": {
+    "summary": "Stretchy knit fabric. Environmental impact depends on fiber composition.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "flannel": {
+    "summary": "Soft woven fabric, typically cotton. Impact depends on growing and processing methods.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "satin": {
+    "summary": "Smooth, glossy fabric with floating thread structure. Impact varies by fiber content.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "corduroy": {
+    "summary": "Durable cotton fabric with distinctive ridges. Water-intensive production.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "tapa cloth": {
+    "summary": "Traditional Polynesian barkcloth made from tree bark. Natural and biodegradable.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "organza": {
+    "summary": "Thin, plain weave, sheer fabric traditionally made from silk. Now often synthetic.",
+    "impact": "Varies",
+    "recyclable": false
+  },
+  "jute": {
+    "summary": "Natural fiber from Corchorus plants. Biodegradable with minimal pesticide requirements.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "hemp": {
+    "summary": "Fast-growing natural fiber requiring minimal pesticides. Highly sustainable and biodegradable.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "canvas": {
+    "summary": "Heavy-duty woven fabric. Durable and biodegradable depending on the fiber source.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "microfiber": {
+    "summary": "Synthetic fabric with very fine fibers. Sheds microplastics that pollute waterways.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "rubber": {
+    "summary": "Natural or synthetic elastomer. Natural rubber is biodegradable, synthetic is petroleum-based.",
+    "impact": "Varies",
+    "recyclable": true
+  },
+  "leather": {
+    "summary": "Animal hide processed with tanning chemicals. Biodegradable but raises ethical concerns.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "paper": {
+    "summary": "Wood pulp-based sheet material. Recyclable and biodegradable with moderate processing impact.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "cardboard": {
+    "summary": "Recyclable and biodegradable. Often used in eco-friendly packaging.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "cork": {
+    "summary": "Natural material harvested from cork oak bark. Renewable, biodegradable and carbon-negative.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "wood pulp": {
+    "summary": "Processed wood fibers used in paper production. Impact depends on forest management.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "graphite": {
+    "summary": "Crystalline form of carbon used in pencils and lubricants. Minimal processing impact.",
+    "impact": "Low",
+    "recyclable": false
+  },
+  "diamond": {
+    "summary": "Natural diamonds have significant mining impacts. Lab-grown alternatives reduce impact.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "ceramics": {
+    "summary": "Clay-based materials fired at high temperatures. Energy-intensive but durable and inert.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "metal": {
+    "summary": "Category including various metals. Most require significant energy to produce but are recyclable.",
+    "impact": "Varies",
+    "recyclable": true
+  },
+  "tanning agents": {
+    "summary": "Chemicals used to process leather. Often contain chromium and other toxic compounds.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "dyeing agents": {
+    "summary": "Chemicals used to color textiles. Can contain heavy metals and cause water pollution.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "glues": {
+    "summary": "Adhesives varying from natural to synthetic. Petroleum-based types often contain VOCs.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "adhesives": {
+    "summary": "Bonding compounds that vary widely. Many contain volatile organic compounds (VOCs).",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "paint": {
+    "summary": "Surface coating with pigments and binders. Oil-based types contain more harmful compounds.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "paints": {
+    "summary": "Surface coatings with varying environmental impacts. Water-based have lower toxicity.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "water-based paint": {
+    "summary": "Paint using water as solvent rather than petroleum-based solvents. Lower VOC emissions.",
+    "impact": "Low",
+    "recyclable": false
+  },
+  "bamboo": {
+    "summary": "Fast-growing grass with excellent renewability. Minimal pesticide requirements and carbon sequestration.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "rattan": {
+    "summary": "Palm-based natural material used in furniture. Renewable and biodegradable.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "coir": {
+    "summary": "Natural fiber from coconut husks. Biodegradable with minimal processing requirements.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "sisal": {
+    "summary": "Natural fiber from agave plants. Drought-resistant crop with minimal pesticide needs.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "kapok": {
+    "summary": "Silky fiber from kapok tree seed pods. Natural, renewable, and biodegradable insulation material.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "down": {
+    "summary": "Insulating feathers from waterfowl. Biodegradable but raises animal welfare concerns.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "lyocell": {
+    "summary": "Semi-synthetic cellulosic fiber produced in closed-loop process. Low chemical and water usage.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "modal": {
+    "summary": "Semi-synthetic cellulosic fiber. More eco-friendly processing than rayon but still resource-intensive.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "acetate": {
+    "summary": "Semi-synthetic fiber made from cellulose. Biodegradable but requires chemical processing.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "viscose": {
+    "summary": "Semi-synthetic cellulosic fiber. Can have high chemical and water usage in production.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "spandex": {
+    "summary": "Synthetic elastomeric fiber. Non-biodegradable with petroleum-based inputs.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "elastane": {
+    "summary": "Synthetic stretch fiber similar to spandex. Petroleum-based and non-biodegradable.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "cashmere": {
+    "summary": "Ultra-fine natural wool from cashmere goats. Biodegradable but resource-intensive.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "mohair": {
+    "summary": "Natural wool from angora goats. Biodegradable but raises animal welfare concerns.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "alpaca": {
+    "summary": "Natural wool with lower environmental impact than sheep wool. Biodegradable.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "merino wool": {
+    "summary": "Fine natural wool from merino sheep. High-quality renewable fiber but involves livestock.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "fiberglass": {
+    "summary": "Glass fiber composite. Non-biodegradable but energy-efficient as insulation.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "carbon fiber": {
+    "summary": "High-strength composite material. Very energy-intensive production process.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "kevlar": {
+    "summary": "Aramid fiber with high strength. Energy-intensive production but extremely durable.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "bioplastic": {
+    "summary": "Plastic derived from renewable biomass. Biodegradable varieties available but not universal.",
+    "impact": "Low-Moderate",
+    "recyclable": true
+  },
+  "pla": {
+    "summary": "Biodegradable thermoplastic from renewable resources like corn starch. Compostable in industrial facilities.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "pbat": {
+    "summary": "Biodegradable plastic blend used in compostable bags. Petroleum-derived but biodegradable.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "pha": {
+    "summary": "Naturally occurring biopolymer produced by bacteria. Fully biodegradable in various environments.",
+    "impact": "Low",
+    "recyclable": false
+  },
+  "recycled polyester": {
+    "summary": "Made from post-consumer plastic bottles. Lower energy than virgin polyester but still sheds microplastics.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "econyl": {
+    "summary": "Regenerated nylon made from fishing nets and carpet. Reduces waste but still synthetic.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "recycled cotton": {
+    "summary": "Made from post-industrial or post-consumer cotton waste. Reduces water and chemical usage.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "reclaimed wood": {
+    "summary": "Wood salvaged from old structures. Minimal processing energy and prevents waste.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "terracotta": {
+    "summary": "Unglazed, porous clay material. Lower firing temperature than many ceramics.",
+    "impact": "Low",
+    "recyclable": false
+  },
+  "porcelain": {
+    "summary": "High-fired ceramic with higher energy requirements but exceptional durability.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "marble": {
+    "summary": "Natural stone requiring quarrying and cutting. Energy-intensive extraction but extremely durable.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "granite": {
+    "summary": "Hard natural stone requiring quarrying. High extraction energy but extremely long-lasting.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "limestone": {
+    "summary": "Sedimentary rock used in construction and cement. Quarrying impacts but naturally abundant.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "sandstone": {
+    "summary": "Natural sedimentary stone used in construction. Quarrying impacts but naturally abundant.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "slate": {
+    "summary": "Fine-grained metamorphic rock used for roofing and flooring. Durable with long lifespan.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "quartz": {
+    "summary": "Engineered stone combining crushed quartz with resins. Durable but contains non-biodegradable components.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "terrazzo": {
+    "summary": "Composite material with marble chips in cement. Durable and often uses recycled content.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "linoleum": {
+    "summary": "Natural flooring made from linseed oil, cork and wood flour. Biodegradable alternative to vinyl.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "vinyl": {
+    "summary": "PVC-based synthetic flooring and wall covering. Contains phthalates and non-biodegradable.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "mdf": {
+    "summary": "Medium-density fiberboard made from wood fibers and resin. Contains formaldehyde-based adhesives.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "oriented strand board": {
+    "summary": "Engineered wood made from oriented wood strands. Utilizes wood waste but contains adhesives.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "coconut fiber": {
+    "summary": "Natural fiber from coconut husks. Biodegradable and uses agricultural byproduct.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "abaca": {
+    "summary": "Natural fiber from banana plant species. Strong, water-resistant, and biodegradable.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "ramie": {
+    "summary": "Natural plant fiber similar to flax. Biodegradable with minimal pesticide requirements.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "lyocell tencel": {
+    "summary": "Sustainable cellulosic fiber produced in closed-loop system with minimal chemicals and water.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "piñatex": {
+    "summary": "Leather alternative made from pineapple leaf fibers. Uses agricultural waste and biodegradable.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "mushroom leather": {
+    "summary": "Leather alternative grown from mycelium. Biodegradable and requires minimal resources.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "mycelium": {
+    "summary": "Fungal-based material used for packaging and leather alternatives. Biodegradable and low-impact.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "seacell": {
+    "summary": "Cellulosic fiber containing seaweed. Biodegradable with beneficial skin properties.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "milk fiber": {
+    "summary": "Protein fiber made from casein in milk. Biodegradable but requires chemical processing.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "soy fabric": {
+    "summary": "Protein fiber made from soy byproducts. Biodegradable but requires chemical processing.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "qmonos": {
+    "summary": "Lab-created artificial spider silk. High-performance biodegradable fiber with minimal resources.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "s.cafe": {
+    "summary": "Fabric made from recycled coffee grounds. Utilizes waste and has natural odor control.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "orange fiber": {
+    "summary": "Cellulosic fabric made from citrus juice byproducts. Uses agricultural waste.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "bananatex": {
+    "summary": "Fabric made from banana plant fibers. Biodegradable and uses minimal chemicals.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "recycled nylon": {
+    "summary": "Made from post-consumer and industrial nylon waste. Reduces petroleum use and waste.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "recycled wool": {
+    "summary": "Made from post-consumer and industrial wool waste. Reduces water and dye usage.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "reclaimed rubber": {
+    "summary": "Made from recycled tires and rubber products. Prevents waste but still not biodegradable.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "recovered plastic": {
+    "summary": "Plastic retrieved from oceans and waterways. Prevents environmental damage but still synthetic.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "nettle fiber": {
+    "summary": "Natural fiber similar to linen. Requires minimal pesticides and grows on marginal land.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "rose fiber": {
+    "summary": "Cellulosic fiber made from rose bush byproducts. Utilizes waste from oil production.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "lotus fiber": {
+    "summary": "Rare natural fiber extracted from lotus stems. Labor-intensive but chemical-free process.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "recycled leather": {
+    "summary": "Made from leather scraps and shavings bonded together. Reduces waste but contains adhesives.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "apple leather": {
+    "summary": "Vegan leather alternative made from apple industry waste. Biodegradable and uses byproducts.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "grape leather": {
+    "summary": "Leather alternative made from grape waste from wine industry. Utilizes agricultural byproducts.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "cactus leather": {
+    "summary": "Leather alternative made from nopal cactus. Requires minimal water and no irrigation.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "palm leather": {
+    "summary": "Leather alternative made from palm leaves. Biodegradable and uses renewable resources.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "sanding dust": {
+    "summary": "Wood byproduct that can be used in fiberboard. Utilizes waste from wood processing.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "rice hulls": {
+    "summary": "Agricultural byproduct used in packaging. Biodegradable and abundantly available.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "sunflower hulls": {
+    "summary": "Agricultural byproduct used in composite materials. Biodegradable fiber source.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "wheat straw": {
+    "summary": "Agricultural byproduct used in paper and building materials. Uses waste from food production.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "bagasse": {
+    "summary": "Sugarcane fiber byproduct used in paper and packaging. Biodegradable with minimal processing.",
+    "impact": "Low",
+    "recyclable": true
+  }
+}

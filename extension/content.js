@@ -26,7 +26,7 @@ function showTooltip(carbonKg) {
 // Fetch emissions from your Flask backend
 async function fetchEnvironmentalDataLive(productUrl, postcode) {
   try {
-    const response = await fetch("http://localhost:5000/estimate_emissions", {
+    const response = await fetch("https://eco-backend-m26q.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

@@ -44,8 +44,6 @@ venv/
 docker-compose.override.yml
 
 # === Data files / models / user-generated
-*.csv
-*.json
 !package.json
 !package-lock.json
 !requirements.txt
