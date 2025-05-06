@@ -8,7 +8,7 @@ import json
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from backend.auth import auth
 import pandas as pd
-from backend.services.scraper.scrape_amazon_titles  import (scrape_amazon_product_page,estimate_origin_country, resolve_brand_origin,save_brand_locations)
+from backend.services.scraper.scrape_amazon_titles  import (scrape_amazon_product_page, estimate_origin_country, resolve_brand_origin, save_brand_locations)
 import csv
 import re
 
@@ -406,18 +406,10 @@ def estimate_emissions():
 
         # Use mock product if scraping is skipped
         if url:
-            print("🛑 Skipping scraping — using mock data for product.")
-            product = {
-                "title": "Mock Product",
-                "material_type": "plastic",
-                "transport_mode": "Ship",
-                "recyclability": "Low",
-                "brand_estimated_origin": "China",
-                "estimated_weight_kg": 0.5,
-                "dimensions_cm": None,
-                "distance_origin_to_uk": 8200,
-                "distance_uk_to_user": 200
-            }
+            print("🌐 Scraping real product:", url)
+            product = scrape_amazon_product_page(url)
+            if not product:
+                return jsonify({"error": "Failed to scrape product"}), 500
 
             title = product.get("title", "Amazon Product")
             material = normalize_feature(product.get("material_type"), "Other")

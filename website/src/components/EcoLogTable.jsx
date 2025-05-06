@@ -20,7 +20,7 @@ export default function EcoLogTable() {
   const { isOpen, onToggle } = useDisclosure(); // ✅ inside component
 
   useEffect(() => {
-    fetch("https://eco-backend-m26q.onrender.com/api/feature-importance/api/eco-data")
+    fetchfetch("https://eco-backend-m26q.onrender.com/api/eco-data")
       .then((res) => res.json())
       .then((rows) => setData(rows))
       .catch((err) => console.error("Error loading eco data:", err));

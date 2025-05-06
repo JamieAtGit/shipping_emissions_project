@@ -813,11 +813,11 @@ def scrape_amazon_titles(url, max_items=100):
 
 import os
 
-IS_DOCKER = os.environ.get('IS_DOCKER', 'false').lower() == 'true'
+#IS_DOCKER = os.environ.get('IS_DOCKER', 'false').lower() == 'true'
 
 def scrape_amazon_product_page(amazon_url, fallback=False):
-    if IS_DOCKER:
-        fallback = True
+    #if IS_DOCKER:
+        #fallback = True
         
     import undetected_chromedriver as uc
     options = uc.ChromeOptions()

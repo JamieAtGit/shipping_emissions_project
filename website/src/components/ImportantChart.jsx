@@ -5,7 +5,7 @@ export default function ImportantChart() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/feature-importance")
+    fetch("https://eco-backend-m26q.onrender.com/api/eco-data")
       .then((res) => res.json())
       .then(setData)
       .catch((err) => console.error("Feature importances fetch error:", err));

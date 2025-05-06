@@ -11,7 +11,7 @@
     ],
   
     "host_permissions": [
-      "https://eco-backend-m26q.onrender.com",
+      "https://eco-backend-m26q.onrender.com/*",
       "http://localhost:5000/*",
       "https://www.amazon.co.uk/*",
       "https://www.amazon.com/*"
