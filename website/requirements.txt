@@ -1,0 +1,13 @@
+tailwindcss@3 postcss autoprefixer -D
+
+build
+react-router-dom recharts
+@chakra-ui/react 
+@emotion/react 
+npx.cmd tailwindcss init -p
+
+@emotion/styled framer-motion tailwindcss
+-D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+dev

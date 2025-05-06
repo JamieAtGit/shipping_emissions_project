@@ -1,0 +1,9 @@
+# Ignore development clutter
+__pycache__/
+*.log
+.vscode/
+node_modules/
+.DS_Store
+.env
+ReactPopup/
+Website/

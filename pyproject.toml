@@ -1,0 +1,6 @@
+[project]
+name = "dsp"
+version = "0.1.0"
+
+[tool.setuptools]
+packages = ["backend", "ml_model", "extension"]

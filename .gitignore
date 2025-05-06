@@ -1,0 +1,58 @@
+# === Node (Frontend / Extension)
+node_modules/
+dist/
+build/
+
+# === Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.sqlite3
+*.log
+*.db
+
+# === Selenium & ChromeDriver
+selenium_profile/
+chromedriver.log
+*.crdownload
+*.tmp
+
+# === VSCode & IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# === Environment
+.env
+.env.local
+
+# === OS/System
+.DS_Store
+Thumbs.db
+
+# === Python virtualenvs
+.venv/
+env/
+venv/
+
+# === Docker
+*.pid
+*.sock
+*.pid.lock
+docker-compose.override.yml
+
+# === Data files / models / user-generated
+*.csv
+*.json
+!package.json
+!package-lock.json
+!requirements.txt
+!Dockerfile
+submitted_predictions.json
+real_scraped_dataset.csv
+user_feedback.json
+brand_locations.json
+unrecognized_brands.txt
+captcha_screenshot.png
